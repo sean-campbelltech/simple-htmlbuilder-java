@@ -43,7 +43,7 @@ public class HtmlPage {
 
     private void AddBody() {
         if (!elements.isEmpty()) {
-            htmlStringBuilder.append("<body>");
+            htmlStringBuilder.append("<body>").append(NEW_LINE);
             for (HtmlElement element : elements) {
                 htmlStringBuilder.append(element).append(NEW_LINE);
             }
