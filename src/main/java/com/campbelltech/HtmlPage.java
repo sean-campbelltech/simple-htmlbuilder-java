@@ -19,10 +19,6 @@ public class HtmlPage {
 
     @Override
     public String toString() {
-        return getHtml();
-    }
-
-    private String getHtml() {
         htmlStringBuilder.append(NEW_LINE)
                 .append("<html>")
                 .append(NEW_LINE);
